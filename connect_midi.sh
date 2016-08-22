@@ -9,7 +9,7 @@
 
 if aconnect -l | grep "Connecting To"
 then
-  echo "Exiting"
+  echo "Midi Already connected via aconnect"
   exit
 fi
 
